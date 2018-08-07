@@ -62,7 +62,7 @@
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - Uddhav Dandale Application</p>
+                <p>&copy; <%: DateTime.Now.Year %> - Uddhav Azure Dandale Application</p>
             </footer>
         </div>
 

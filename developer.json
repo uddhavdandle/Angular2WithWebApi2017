@@ -1,0 +1,43 @@
+{
+  "Name": "IT Software Development",
+  "Id": "?",
+  "IsCustom": true,
+  "Description": "Provides IT Software Development team members with valid role actions",
+  "Actions": [
+    "Microsoft.Web/serverfarms/*",
+    "Microsoft.Web/sites/*",
+    "Microsoft.Web/sites/backup/*",
+    "Microsoft.Insights/*",
+    "Microsoft.Compute/disks/*",
+    "Microsoft.DBforMySQL/servers/*",
+    "Microsoft.Network/networkInterfaces/*",
+    "Microsoft.Network/publicIPAddresses/*",
+    "Microsoft.Network/networkSecurityGroups/*",
+    "Microsoft.Resources/subscriptions/resourceGroups/write",
+    "Microsoft.Resources/deployments/*",
+    "Microsoft.Resources/deployments/validate/action",
+    "Microsoft.Authorization/*/read",
+    "Microsoft.Insights/alertRules/*",
+    "Microsoft.ResourceHealth/availabilityStatuses/read",
+    "Microsoft.Resources/deployments/*",
+    "Microsoft.Resources/subscriptions/resourceGroups/*/read",
+    "Microsoft.Resources/subscriptions/resourceGroups/resources/read"
+    "Microsoft.Support/*",
+    "Microsoft.Authorization/*/read",
+    "Microsoft.Storage/storageAccounts/*"
+
+
+  ],
+  "NotActions": [
+    "Microsoft.Web/serverfarms/delete",
+    "Microsoft.Compute/disks/delete",
+    "Microsoft.DBforMySQL/servers/delete",
+    "Microsoft.Storage/storageAccounts/delete",
+    "Microsoft.Compute/virtualMachines/delete",
+    "Microsoft.Network/virtualNetworks/subnets/delete",
+    "Microsoft.Storage/storageAccounts/delete"
+  ],
+  "AssignableScopes": [
+    "/subscriptions/a6d47e51-01cd-4891-a2f7-5f1e1af9b7e4"
+  ]
+}
